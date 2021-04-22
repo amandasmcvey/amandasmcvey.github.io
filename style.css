@@ -31,7 +31,7 @@ body {
   .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('https://content.codecademy.com/projects/personal_portfolio/background.jpeg');
+    background-image: url('images/vincent-ledvina-4MWxHmKGavs-unsplash.jpg');
     background-size: cover;
     color: #ffffff;
     height: 400px;
