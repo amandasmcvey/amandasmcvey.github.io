@@ -7,6 +7,6 @@ $(document).ready(function () {
     var pageName = location.hash.substr(1);
   
     $("#body").load(pageName + ".html");
-    $("#header").innerHTML = pageName;
+    $("#header").html(pageName);
   });
 });
