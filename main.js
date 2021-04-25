@@ -1,14 +1,20 @@
 $(document).ready(function () {
-  navigate();
+    navigate();
+
+    $(".nav .nav-link").on("click", function(){
+        $(".nav").find(".active").removeClass("active");
+        $(this).addClass("active");
+    });
 });
 
 $(window).on('hashchange', navigate);
 
 function navigate(){
-  if(location.hash){
-    var pageName = location.hash.substr(1);
+    if(location.hash){
+        var pageName = location.hash.substr(1);
 
-    $("#body").load(pageName + ".html");
-    $("#header").html(pageName);
-  }
+        $("#body").load(pageName + ".html");
+        $("#header").html(pageName);
+    }
 }
+
