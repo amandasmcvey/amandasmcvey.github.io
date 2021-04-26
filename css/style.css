@@ -1,0 +1,130 @@
+
+/*  */
+/* base */
+/*  */
+
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
+
+.primaryColor {
+  color: #6d6262;
+}
+
+.secondaryColor {
+  color: #474141;
+}
+
+
+/*  */
+/* links */
+/*  */
+
+a {
+  color: #6d6262;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #474141;
+  text-decoration: underline;
+}
+
+a.active {
+  color: #474141;
+  text-decoration: underline;
+}
+
+
+/*  */
+/* header */
+/*  */
+
+header {
+  padding: 20px 0;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header #titleLink {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 0 20px;
+  margin: 0;
+  color: #6d6262;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #474141;
+}
+
+.navbar-toggler {
+  color: #6d6262;
+}
+
+.navbar-toggler:hover {
+  color: #474141;
+}
+
+
+/*  */
+/* footer */
+/*  */
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+
+/*  */
+/* jumbotron */
+/*  */
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 400px;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
