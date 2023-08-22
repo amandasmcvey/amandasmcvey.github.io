@@ -12,10 +12,9 @@ $(window).on('hashchange', navigate);
 function navigate(){
     if(location.hash){
         var pageName = location.hash.substr(1);
-        pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
 
         $("#body").load(pageName + ".html");
-        $("#header").html(pageName);
+        $("#header").html(pageName.charAt(0).toUpperCase() + pageName.slice(1));
     }
 }
 
