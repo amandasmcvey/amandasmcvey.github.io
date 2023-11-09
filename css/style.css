@@ -132,3 +132,7 @@ footer ul {
   filter: FlipH;
   -ms-filter: "FlipH";
 }
+
+ul {
+  list-style-type: circle;
+}
