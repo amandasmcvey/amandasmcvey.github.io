@@ -151,12 +151,6 @@ ul {
     color: #474141;
 }
 
-.project-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: 0 0 0 0.15rem;
-}
-
 .project-content {
     display: block;
     padding: 0.5rem 3rem;
@@ -166,4 +160,8 @@ ul {
 
 .project-toggler:not(.collapsed) {
   font-weight: 700;
+}
+
+.half-margin {
+  margin: 0.5rem 0;
 }
