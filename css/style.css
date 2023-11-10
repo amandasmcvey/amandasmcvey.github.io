@@ -136,3 +136,30 @@ footer ul {
 ul {
   list-style-type: circle;
 }
+
+.project-toggler {
+    padding: 0.25rem 0.75rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+    color: #6d6262;
+}
+
+.project-toggler:hover {
+    color: #474141;
+}
+
+.project-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem;
+}
+
+.project-content {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
