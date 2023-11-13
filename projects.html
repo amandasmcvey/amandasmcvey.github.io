@@ -6,6 +6,7 @@
             <i class="bi bi-caret-right-fill"></i>
             Cluster build workbook application
         </button>
+        
         <div id="project-bar1" class="collapse navbar-collapse justify-content-end show">
             <div class="project-content">
                 <div class="primaryColor">Quick Facts</div>
@@ -37,76 +38,65 @@
                         </ul>     
                     </li>              
                 </ul>
+
                 <div class="primaryColor pt-2">The Details</div>
                 <hr class="half-margin"/>
-                    This application helps users manage and track cluster builds from conception to completion.<br/>
-                    Major components of the application that I have worked with are: 
-                    <ul>
-                        <li>Build lists</li>
-                        <li>Build details</li>
-                        <li>Build request form</li>
-                        <li>Request list</li>
-                        <li>Request details</li>
-                        <li>Cluster reservations</li>
-                        <li>Search</li>
-                        <li>Settings</li>
-                        <li>Page tours</li>
-                    </ul>
+                This application helps users manage and track cluster builds from conception to completion.<br/>
+                Major components of the application that I have worked with are: 
+                <ul>
+                    <li>Build lists</li>
+                    <li>Build details</li>
+                    <li>Build request form</li>
+                    <li>Request list</li>
+                    <li>Request details</li>
+                    <li>Cluster reservations</li>
+                    <li>Search</li>
+                    <li>Settings</li>
+                    <li>Page tours</li>
+                </ul>
 
-                    Stakeholders identified major issues with application tables like a lack of space and subpar readability. <br/>
-                    I mitigated these issues by researching and applying best practices for data heavy tables, such as:
-                    <ul>
-                        <li>
-                            Including only the necessary data. What data do users use most often? What data are users often comparing across builds?
-                        </li>
-                        <li>
-                            Increasing scannability by aligning header text to bottom, aligning content text to top, numbers aligned right on decimal, all other text aligned left, and reducing bulky visuals.
-                        </li>
-                    </ul>
+                Stakeholders identified issues with application tables like a lack of space and subpar readability. <br/>
+                I mitigated these issues by researching and applying best practices for data heavy tables, such as:
+                <ul>
+                    <li>
+                        Including only the necessary data. What data do users use most often? What data are users often comparing across builds?
+                    </li>
+                    <li>
+                        Increasing scannability by aligning header text to bottom, aligning content text to top, numbers aligned right on decimal, all other text aligned left, and reducing bulky visuals.
+                    </li>
+                </ul>
 
-                    Stakeholders identified an issue with determining a build's progress. <br/>
-                    I spoke to these stakeholders, gathered information on where the disconnect is, and developed several possible designs.  <br/>
-                    I went back to these stakeholders with the designs and gathered feedback, iterated on the designs, and repeated until a decision was reached.  <br/>
-                    These design changes included:
-                    <ul>
-                        <li>Reducing use of icons where text can be used to more quickly convey information instead of overloading the user's working memory.</li>
-                        <li>Moving progress diagram from modal to directly on page so information is more accessible to users.</li>
-                        <li>Combining two similar progress charts into one. Allowing users to compare and contrast more easily and reducing confusion as to why there are two progress charts.</li>
-                        <li>Included more descriptions and explanations to aid users who are unfamiliar with how builds progress.</li>
-                    </ul>
+                Stakeholders identified an issue with determining a build's progress. <br/>
+                I spoke to these stakeholders, gathered information on where the disconnect is, and developed several possible designs.  <br/>
+                I went back to these stakeholders with the designs and gathered feedback, iterated on the designs, and repeated until a decision was reached.  <br/>
+                These design changes included:
+                <ul>
+                    <li>Reducing use of icons where text can be used to more quickly convey information instead of overloading the user's working memory.</li>
+                    <li>Moving progress diagram from modal to directly on page so information is more accessible to users.</li>
+                    <li>Combining two similar progress charts into one. Allowing users to compare and contrast more easily and reducing confusion as to why there are two progress charts.</li>
+                    <li>Including additional descriptions and explanations to aid users who are unfamiliar with how builds progress.</li>
+                </ul>
 
-                    Stakeholders identified an issue with the build request process.  <br/>
-                    The process was manual, error prone, and left out key information so stakeholders requested a way to obtain the this information more effectively. <br/>
-                    I alleviated this issue by:<br/>
-                    <ul>
-                        <li>Speaking to stakeholders to determine what information is necessary for the team and designed a form around these needs.</li>
-                        <li>Utilizing a combination of proprietary design systems and best form practices, I ensured the form maintained usability, clarity, and efficiency. 
-                            <br/> I used common terms and clear language, added information about terms with multiple names, broke form into related sections to reduce cognitive load, and kept questions and options inline for scannability. </li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                Stakeholders identified an issue with the build request process.  <br/>
+                The process was manual, error prone, and left out key information. Stakeholders requested a way to obtain the this information more effectively. <br/>
+                I alleviated this issue by:<br/>
+                <ul>
+                    <li>Designing a form, a details page for each request, a list of requests.</li>
+                        <br/>The form included only the necessary and most important information. Details page included all the details entered in the form, user and time/date of submission and review, and a comments section. 
+                    <li>Working to stakeholders to determine what information is needed for the team to create each type of build.</li>
+                    <li>Creating a flow of form questions for each build type users are only shown relevant questions.</li>
+                    <li>Utilizing a combination of proprietary design systems and best form practices, ensuring the form maintained usability, clarity, and efficiency. 
+                        <br/> I used common terms and clear language, added information about terms with multiple names, broke form into related sections to reduce cognitive load, and kept questions and options inline for scannability. </li>
+                    <li>Working with stakeholders to create build request process including states like: draft, submittable, ready for review, approve/deny, error, and archive. </li>
+                </ul>
 
-                    Stakeholders identified an issue with the cluster reservation process.
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-
-                    Stakeholders identified an issue with finding specific or types of builds.
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-
-                    Stakeholders identified an issue with first time users being unsure of the functionalities offered by our application.
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-
+                Stakeholders identified an issue with first time users being unsure of the functionalities offered by our application.
+                <br/>I alleviated this issue by:
+                <ul>
+                    <li>Working with stakeholders to determine which features they were looking to point out to user as well as coming up with my own suggestions based on my knowledge of the application</li>
+                    <li>Researching best practices for application tours and tutorials and creating a board of existing designs for inspiration</li>
+                    <li>Designed a tour based on research conducted and iterated per feedback from stakeholders before eventually creating stories for developers for the new features.</li>
+                </ul>
             </div>
         </div>
 
