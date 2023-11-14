@@ -165,3 +165,7 @@ ul {
 .half-margin {
   margin: 0.5rem 0;
 }
+
+.bg-secondary {
+    background-color: #6d6262!important;
+}
